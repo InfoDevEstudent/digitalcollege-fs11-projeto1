@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  border: 1px solid red;
+  background-color: antiquewhite;
+}
+
 .artc {
   background-color: antiquewhite;
   width: 350px;
@@ -82,5 +91,5 @@ img {
 }
 
 td:hover img {
-  transform: scale(2) rotate(-45deg);
+  transform: scale(1.5) rotate(-80deg);
 }
